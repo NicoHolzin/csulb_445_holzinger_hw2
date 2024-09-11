@@ -21,11 +21,12 @@ input[type="submit"]:active {
 }
 
 ul { /*Unordered lists – make items square*/
-  list-style-type:none;
+  list-style-type:square;
 }
 
 ol { /*Ordered lists – lower-roman*/
   list-style-type: lower-roman;
+  list-style-type: decimal;
 }
 
 tr:nth-child(even) {
