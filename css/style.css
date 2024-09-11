@@ -1,0 +1,37 @@
+h1, h2 {
+  font-family: 'Courier New';
+  color: red;}
+body {
+  font-family: Calibri;
+}
+a:not(:visited) { /*not visited link*/
+  color: red;
+}
+
+a:visited { /*visited link*/
+  color: green;
+}
+
+input[type="submit"]:hover {
+  background-color: red; /*Red hover color*/
+}
+
+input[type="submit"]:active {
+  background-color: green; /*Green active color*/
+}
+
+ul { /*Unordered lists – make items square*/
+  list-style-type:none;
+}
+
+ol { /*Ordered lists – lower-roman*/
+  list-style-type: lower-roman;
+}
+
+tr:nth-child(even) {
+  background-color: #f0f0f0; /*Light gray even row color*/
+}
+
+tr:hover {
+  background-color: #add8e6; /*Light blue hover row color*/
+}
